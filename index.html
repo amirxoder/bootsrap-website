@@ -9,6 +9,10 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -24,7 +28,10 @@
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-xxl">
         <a class="navbar-brand" href="#intro">
-          <span class="text-secondary fw-bold">Open Code Pro</span>
+          <span class="text-secondary fw-bold">
+            <i class="bi bi-book-half"></i>
+            Open Code Pro</span
+          >
         </a>
 
         <!-- toggle button for mobile -->
@@ -68,7 +75,7 @@
 
     <!-- intro setion -->
 
-    <section id="intro">
+    <section id="intro" class="bg-light">
       <div class="container-lg">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
@@ -89,7 +96,7 @@
     </section>
 
     <!-- pricing plan -->
-    <secoin id="pricing">
+    <secoin id="pricing" class="">
       <div class="container-lg">
         <div class="text-center">
           <h2>Pricing Plans</h2>
@@ -161,6 +168,280 @@
       </div>
       <!-- container -->
     </secoin>
+
+    <!-- topics -->
+    <section id="topics" class="bg-light">
+      <div class="container-md">
+        <div class="text-center">
+          <h2>Inside the Book</h2>
+          <p class="lead text-muted">
+            A quick glance at the topics you`llll learn
+          </p>
+        </div>
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+          <div class="col-6 col-lg-4">
+            <img src="/assets/kindle.png" alt="kinleemok" class="img-fluid" />
+          </div>
+          <!-- accordion -->
+          <div class="col-lg-6">
+            <div id="chapters" class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-1"
+                    aria-expanded="true"
+                    aria-controls="chapter-1"
+                  >
+                    Chapter 1 - Your first Webpage
+                  </button>
+                </h2>
+                <div
+                  id="chapter-1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="#heading-1"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corporis earum, odio, itaque animi hic quos alias eveniet
+                      amet fugiat aspernatur est ex error temporibus! Quia quam
+                      eius dolorum quaerat officiis?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quod omnis eius placeat rem doloremque blanditiis alias
+                      voluptatibus magnam et, aperiam dolores saepe officia enim
+                      mollitia. Ex nam nihil debitis sunt?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2"
+                    aria-expanded="false"
+                    aria-controls="chapter-2"
+                  >
+                    Chapter 2 - Mastring CSS
+                  </button>
+                </h2>
+                <div
+                  id="chapter-2"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="#heading-2"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corporis earum, odio, itaque animi hic quos alias eveniet
+                      amet fugiat aspernatur est ex error temporibus! Quia quam
+                      eius dolorum quaerat officiis?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quod omnis eius placeat rem doloremque blanditiis alias
+                      voluptatibus magnam et, aperiam dolores saepe officia enim
+                      mollitia. Ex nam nihil debitis sunt?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3"
+                    aria-expanded="false"
+                    aria-controls="chapter-3"
+                  >
+                    Chapter 3 - The power of JavaScript
+                  </button>
+                </h2>
+                <div
+                  id="chapter-3"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="#heading-1"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corporis earum, odio, itaque animi hic quos alias eveniet
+                      amet fugiat aspernatur est ex error temporibus! Quia quam
+                      eius dolorum quaerat officiis?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quod omnis eius placeat rem doloremque blanditiis alias
+                      voluptatibus magnam et, aperiam dolores saepe officia enim
+                      mollitia. Ex nam nihil debitis sunt?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4"
+                    aria-expanded="false"
+                    aria-controls="chapter-4"
+                  >
+                    Chapter 4 - Storing Data (Firebase Database)
+                  </button>
+                </h2>
+                <div
+                  id="chapter-4"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="#heading-1"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corporis earum, odio, itaque animi hic quos alias eveniet
+                      amet fugiat aspernatur est ex error temporibus! Quia quam
+                      eius dolorum quaerat officiis?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quod omnis eius placeat rem doloremque blanditiis alias
+                      voluptatibus magnam et, aperiam dolores saepe officia enim
+                      mollitia. Ex nam nihil debitis sunt?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-5">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-5"
+                    aria-expanded="false"
+                    aria-controls="chapter-5"
+                  >
+                    Chapter 5 - User Authentication
+                  </button>
+                </h2>
+                <div
+                  id="chapter-5"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="#heading-5"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corporis earum, odio, itaque animi hic quos alias eveniet
+                      amet fugiat aspernatur est ex error temporibus! Quia quam
+                      eius dolorum quaerat officiis?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quod omnis eius placeat rem doloremque blanditiis alias
+                      voluptatibus magnam et, aperiam dolores saepe officia enim
+                      mollitia. Ex nam nihil debitis sunt?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- topics -->
+
+    <!-- reviews list -->
+    <section id="reviews">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2><i class="bi bi-stars"></i> Book Reviws</h2>
+          <p class="lead">What my JavaScript student said about the book</p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-8">
+            <div class="list-group">
+              <div class="list-group-item py-3">
+                <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="mb-1">A must by for every aspiring web dev</h5>
+                <p class="mb-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat esse cumque est ipsum eius illo veniam quae ducimus,
+                  neque velit at aliquid a dolores nemo vero dicta. Consectetur,
+                  laudantium expedita!
+                </p>
+                <small>Amir Codder</small>
+              </div>
+
+              <div class="list-group-item py-3">
+                <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <h5 class="mb-1">A must by for every aspiring web dev</h5>
+                <p class="mb-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat esse cumque est ipsum eius illo veniam quae ducimus,
+                  neque velit at aliquid a dolores nemo vero dicta. Consectetur,
+                  laudantium expedita!
+                </p>
+                <small>Amir Codder</small>
+              </div>
+
+              <div class="list-group-item py-3">
+                <div class="pb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <h5 class="mb-1">A must by for every aspiring web dev</h5>
+                <p class="mb-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat esse cumque est ipsum eius illo veniam quae ducimus,
+                  neque velit at aliquid a dolores nemo vero dicta. Consectetur,
+                  laudantium expedita!
+                </p>
+                <small>Amir Codder</small>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- reviews list -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
